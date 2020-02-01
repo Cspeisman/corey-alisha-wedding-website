@@ -1,0 +1,17 @@
+body {
+    font-family: "Founders Grotesk", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background-color: #D8DDD6;
+    color: #161616;
+    font-size: 18px;
+}
+
+h1, h2 {
+    font-family: "GT America", helvitca, sans-serif ;
+    font-size: 82px;
+    font-weight: 300;
+}
+
+.welcome > div {
+    padding: 5px 0;
+}
