@@ -19,7 +19,16 @@ const Layout = ({ children }) => {
           textAlign: 'center'
         }}
       >
-        <main>{children}</main>
+        <main
+          style={{
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            justifyContent: 'space-between'
+          }}
+        >
+          {children}
+        </main>
       </div>
     </>
   )
