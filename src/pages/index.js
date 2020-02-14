@@ -32,7 +32,7 @@ const IndexPage = () => {
         <h2>Sunday, October 11, 2020</h2>
         <div>at</div>
         <div>
-          <a href="https://www.thelinehotel.com/dc">THE LINE HOTEL D.C.</a>
+          <a target="_blank" href="https://www.thelinehotel.com/dc">THE LINE HOTEL D.C.</a>
         </div>
         <img src={TheLineHotel} alt="the-line-hotel" width={600}/>
       </div>
