@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { BowieImages } from "../components/BowieImages"
 import TheLineHotel from "../images/the-line.png"
+import {Menu} from "../components/Menu";
 
 const upperCase = { textTransform: "uppercase" }
 
@@ -12,12 +13,8 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <div style={{
-        display: "flex",
-        flexFlow: "row-reverse",
-        width: "100%",
-      }}>
-        <span style={{cursor: "pointer"}} role="img" onClick={() => setShowBowie(true)}>♡︎</span>
+      <div>
+          <Menu showBowie={() => setShowBowie(true)} />
       </div>
       <SEO title="Home"/>
       <h2>Alisha & Corey</h2>
@@ -34,12 +31,15 @@ const IndexPage = () => {
         <div>
           <a target="_blank" href="https://www.thelinehotel.com/dc">THE LINE HOTEL D.C.</a>
         </div>
-        <img src={TheLineHotel} alt="the-line-hotel" width={600}/>
+        <div>(now in micro-ceremony - 2021 party plans to come)</div>
+        <img src={TheLineHotel} alt="the-line-hotel" width={600} style={{maxWidth: '100%'}}/>
       </div>
 
       <div className="section">
-        <div>SCHEDULE, TRAVEL, REGISTRY, AND RSVP DETAILS</div>
-        <div>Coming soon</div>
+        <div>REGISTRY</div>
+        <div>
+            <a target="_blank" href="https://www.zola.com/registry/coreyandalisha">See our registry on Zola.</a>
+        </div>
       </div>
 
       <div className="section">

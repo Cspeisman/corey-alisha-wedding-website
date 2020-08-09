@@ -30,7 +30,7 @@ export const BowieImages = (props) => {
     }, 3000);
 
     let keyCount = 0;
-    const interval = setInterval((thing) => {
+    const interval = setInterval(() => {
       setBowies(prev => [...prev, <Bowie key={keyCount}/>]);
       keyCount++;
     }, 150);
