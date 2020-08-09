@@ -29,6 +29,10 @@ a {
     padding: 5px 0;
 }
 
+.section:last-child {
+    margin-top: 10rem;
+}
+
 .section img {
     margin-top: 32px;
     padding-top: 32px;

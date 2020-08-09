@@ -11,18 +11,18 @@ export const Menu = (props) => {
                 justifyContent: "space-between",
                 alignItems: "center"
             }}>
-                <HamburgerMenu
-                    isOpen={showMenu}
-                    menuClicked={() => setShowMenu(!showMenu)}
-                    width={38}
-                    height={25}
-                    strokeWidth={1}
-                />
+                {/*<HamburgerMenu*/}
+                {/*    isOpen={showMenu}*/}
+                {/*    menuClicked={() => setShowMenu(!showMenu)}*/}
+                {/*    width={38}*/}
+                {/*    height={25}*/}
+                {/*    strokeWidth={1}*/}
+                {/*/>*/}
+                <div></div>
                 <span style={{cursor: "pointer"}} role="img" onClick={props.showBowie}>♡︎</span>
-
             </div>
-            {showMenu &&
-            <div>Hi Im menu!</div>}
+            {/*{showMenu &&*/}
+            {/*<div>Hi Im menu!</div>}*/}
         </div>
     )
 }
