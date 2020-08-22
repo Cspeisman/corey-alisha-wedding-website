@@ -1,8 +1,6 @@
 import React from "react"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import {BowieImages} from "../components/BowieImages"
 import TheLineHotel from "../images/the-line.png"
 
 const upperCase = {textTransform: "uppercase"}
@@ -39,7 +37,14 @@ const IndexPage = () => {
             <div className="section">
                 <div>REGISTRY</div>
                 <div>
-                    <a target="_blank" href="https://www.zola.com/registry/coreyandalisha">See our registry on Zola.</a>
+                    <div>
+                    <a target="_blank" href="https://www.zola.com/registry/coreyandalisha">Zola</a>
+
+                    </div>
+                    <div>
+
+                    <a target="_blank" href="https://www.crateandbarrel.com/gift-registry/alisha-ramos-and-corey-speisman/r6159047">Crate &amp; Barrel</a>
+                    </div>
                 </div>
             </div>
 
