@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Founders Grotesk";
+    src: url('../fonts/founders-grotesk-text-web-regular.eot'),
+        url('../fonts/founders-grotesk-text-web-regular.woff2') format('woff2'),
+        url('../fonts/founders-grotesk-text-web-regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: "GT America";
+    src: url('../fonts/GT-America-Expanded-Regular.eot'),
+    url('../fonts/GT-America-Expanded-Regular.woff2') format('woff2'),
+    url('../fonts/GT-America-Expanded-Regular.woff') format('woff'),
+    url('../fonts/GT-America-Expanded-Regular.ttf') format('ttf');
+}
