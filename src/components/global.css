@@ -37,3 +37,8 @@ a {
     margin-top: 32px;
     padding-top: 32px;
 }
+
+.q-and-a  div {
+    padding: 10px;
+    text-align: left;
+}

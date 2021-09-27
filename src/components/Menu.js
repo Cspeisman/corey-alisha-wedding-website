@@ -1,7 +1,6 @@
-import React, {useState} from "react";
-
+import React from "react";
+import { Link } from "gatsby"
 export const Menu = (props) => {
-    const [showMenu, setShowMenu] = useState(false)
     return (
         <div>
             <div style={{
@@ -10,10 +9,16 @@ export const Menu = (props) => {
                 justifyContent: "space-between",
                 alignItems: "center"
             }}>
-
-                <div></div>
+                {
+                    props.page === '/q-and-a' &&
+                    <Link to="/">Home</Link>
+                }
+                {
+                    props.page === '/' &&
+                    <Link to="/q-and-a">COVID and Q & A</Link>
+                }
                 <span style={{cursor: "pointer"}} role="img" onClick={props.showBowie}>♡︎</span>
             </div>
         </div>
-    )
+    );
 }

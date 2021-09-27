@@ -9,14 +9,14 @@ import React, {useState} from "react"
 import PropTypes from "prop-types"
 import {Menu} from "./Menu";
 import {BowieImages} from "./BowieImages";
+import '../components/typography.css';
+import '../components/global.css';
 
-const Layout = ({children}) => {
+const Layout = ({page, children}) => {
     const [showBowie, setShowBowie] = useState(false)
     return (
-        <div
-            style={{padding: 15}}
-        >
-            <Menu showBowie={() => setShowBowie(true)} />
+        <div style={{padding: 15}}>
+            <Menu page={page} showBowie={() => setShowBowie(true)} />
             <div
                 style={{
                     margin: `0 auto`,

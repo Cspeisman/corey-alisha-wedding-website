@@ -1,13 +1,11 @@
 import React from "react"
 import Layout from "../components/layout"
 import TheRiggsHotel from "../images/riggs-hotel.jpeg"
-import '../components/typography.css';
-import '../components/global.css';
 const upperCase = {textTransform: "uppercase"}
 
-const IndexPage = () => {
+const IndexPage = (props) => {
   return (
-      <Layout>
+      <Layout page={props.uri}>
         <div className="section">
           <h2 style={{marginTop: '10rem'}}>Alisha & Corey</h2>
         </div>
