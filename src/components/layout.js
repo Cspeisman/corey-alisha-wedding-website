@@ -11,11 +11,17 @@ import {Menu} from "./Menu";
 import {BowieImages} from "./BowieImages";
 import '../components/typography.css';
 import '../components/global.css';
-
+import {Helmet} from "react-helmet";
+import Icon from '../images/icon-wedding.png'
 const Layout = ({page, children}) => {
     const [showBowie, setShowBowie] = useState(false)
     return (
         <div style={{padding: 15}}>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Alisha & Corey wedding celebration</title>
+                <link rel="shortcut icon" type="image/jpg" href={Icon} />
+            </Helmet>
             <Menu page={page} showBowie={() => setShowBowie(true)} />
             <div
                 style={{
