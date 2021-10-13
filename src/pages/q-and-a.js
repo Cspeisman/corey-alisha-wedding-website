@@ -28,6 +28,8 @@ const QAndA = (props) => {
                 While there will not be a formal seated dinner, hors d'oeuvres and plentiful food stations will be
                 present and set up for our guests' enjoyment.
             </div>
+            <div><strong>Is there a hotel room block rate available?</strong></div>
+            <div>Yes, we have a room block available for those who plan on staying at The Riggs Hotel, <a target="_blank" href="https://www.riggsdc.com/#/booking/step-1?propertyCode=WASRP&group=ALIS110421">here</a>. You can also give them a call at +1-202-638-1800 and mention the Ramos Speisman party when booking.</div>
         </div>
         <div style={{marginTop: '5rem'}}>
             <img src={discoBall} alt="disco-ball" width={200} height={200}/>
