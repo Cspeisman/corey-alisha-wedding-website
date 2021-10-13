@@ -19,7 +19,7 @@ const Layout = ({page, children}) => {
         <div style={{padding: 15}}>
             <Helmet>
                 <meta charSet="utf-8" />
-                <title>Alisha & Corey wedding celebration</title>
+                <title>Alisha & Corey Wedding Celebration</title>
                 <link rel="shortcut icon" type="image/jpg" href={Icon} />
             </Helmet>
             <Menu page={page} showBowie={() => setShowBowie(true)} />
