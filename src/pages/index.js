@@ -10,7 +10,7 @@ const IndexPage = (props) => {
     return (
         <Layout page={props.uri}>
             <div className="section">
-                <img src={ChampagneTower} alt="the-riggs-hotel" style={{maxWidth: '50%'}}/>
+                <img src={ChampagneTower} alt="the-riggs-hotel" width={480}/>
             </div>
             <div className="section">
                 <h2 style={{marginTop: '10rem'}}>Alisha & Corey</h2>
